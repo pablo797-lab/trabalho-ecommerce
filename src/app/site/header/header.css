@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #e8615c;
+    background-color: #397531;
     padding: 15px 40px;
   }
   
@@ -45,9 +45,14 @@
   
   .nav a {
     color: #fff;
-    text-decoration: underline;
     font-size: 18px;
     letter-spacing: 2px;
+    text-decoration: none;
+  }
+
+  .nav a:hover {
+    border-bottom: 1px solid white;
+     
   }
   
   .profile {
@@ -63,7 +68,7 @@
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background-color: #f2b6b6;
+    background-color: #9e9e9e;
   }
   
   /* HERO */
@@ -83,7 +88,7 @@
     bottom: -120px;
     width: 400px;
     height: 400px;
-    background-color: #e8615c;
+    background-color: #106128;
     border-radius: 50%;
     z-index: 1;
   }
@@ -105,6 +110,7 @@
     font-size: 100px;
     letter-spacing: 10px;
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   .hero-image {
