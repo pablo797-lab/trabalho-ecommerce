@@ -123,8 +123,9 @@
   }
   
   .hero-image img {
-    max-height: 380px;
-    width: auto;
+    transform:scale(1.2);
+           
+  max-width: 100%;
     object-fit: contain;
   }
   
