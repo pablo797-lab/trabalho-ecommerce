@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* HEADER */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e8615c;
+    padding: 15px 40px;
+  }
+  
+  .logo-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #fff;
+    border: 3px solid #3355ff;
+    padding: 8px 16px;
+  }
+  
+  .logo-icon {
+    font-size: 22px;
+  }
+  
+  .logo-text {
+    color: #3355ff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  
+  .profile-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #f2b6b6;
+  }
+  
+  /* HERO */
+  .hero {
+    position: relative;
+    background-color: #e7ddc4;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 60px;
+  }
+  
+  .hero-red-shape {
+    position: absolute;
+    right: -120px;
+    bottom: -120px;
+    width: 400px;
+    height: 400px;
+    background-color: #e8615c;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .hero-text {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero-subtitle {
+    color: #ffffffcc;
+    letter-spacing: 6px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-title {
+    color: #ffffffcc;
+    font-size: 100px;
+    letter-spacing: 10px;
+    font-weight: bold;
+  }
+  
+  .hero-image {
+    position: relative;
+    z-index: 3;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-image img {
+    max-height: 380px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  /* RESPONSIVO */
+  @media (max-width: 900px) {
+    .hero-title {
+      font-size: 60px;
+    }
+  
+    .hero {
+      flex-direction: column;
+      text-align: center;
+      padding: 40px 20px;
+    }
+  
+    .nav {
+      gap: 20px;
+    }
+  }
